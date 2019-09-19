@@ -19,9 +19,11 @@ L Device:LED_Small D3
 U 1 1 5D139909
 P 3200 2650
 F 0 "D3" H 3246 2582 50  0000 R CNN
-F 1 "LED_Small" H 3300 2500 50  0000 R CNN
+F 1 "Orange" H 3300 2500 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 3200 2650 50  0001 C CNN
 F 3 "~" V 3200 2650 50  0001 C CNN
+F 4 "SML-D12D1WT86" H 0   0   50  0001 C CNN "MPN"
+F 5 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3200 2650
 	-1   0    0    1   
 $EndComp
@@ -57,6 +59,8 @@ F 0 "C11" H 6842 1846 50  0000 L CNN
 F 1 "1uF" H 6842 1755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6750 1800 50  0001 C CNN
 F 3 "~" H 6750 1800 50  0001 C CNN
+F 4 "CL10B105KQ8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6750 1800
 	1    0    0    -1  
 $EndComp
@@ -68,6 +72,8 @@ F 0 "C5" H 5092 1596 50  0000 L CNN
 F 1 "10uF" H 5092 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5000 1550 50  0001 C CNN
 F 3 "~" H 5000 1550 50  0001 C CNN
+F 4 "JMK107ABJ106MA-T" H 0   0   50  0001 C CNN "MPN"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5000 1550
 	1    0    0    -1  
 $EndComp
@@ -84,6 +90,8 @@ F 0 "C8" H 5442 1346 50  0000 L CNN
 F 1 "1uF" H 5442 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 1300 50  0001 C CNN
 F 3 "~" H 5350 1300 50  0001 C CNN
+F 4 "CL10B105KQ8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5350 1300
 	1    0    0    -1  
 $EndComp
@@ -92,9 +100,11 @@ L Device:R_Small R6
 U 1 1 5D13B1A6
 P 4800 1950
 F 0 "R6" H 4859 1996 50  0000 L CNN
-F 1 "2k" H 4859 1905 50  0000 L CNN
+F 1 "3k" H 4859 1905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4800 1950 50  0001 C CNN
 F 3 "~" H 4800 1950 50  0001 C CNN
+F 4 "CRCW06033K00FKEAC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Vishay / Dale" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4800 1950
 	1    0    0    -1  
 $EndComp
@@ -106,6 +116,8 @@ F 0 "C12" H 8342 1646 50  0000 L CNN
 F 1 "1uF" H 8342 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8250 1600 50  0001 C CNN
 F 3 "~" H 8250 1600 50  0001 C CNN
+F 4 "CL10B105KQ8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8250 1600
 	1    0    0    -1  
 $EndComp
@@ -143,6 +155,8 @@ F 0 "U1" H 3950 2050 50  0000 C CNN
 F 1 "TP4057" H 4500 2100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4150 2150 50  0001 C CNN
 F 3 "" H 4150 2150 50  0001 C CNN
+F 4 "TP4057-42-SOT26-R" H 0   0   50  0001 C CNN "MPN"
+F 5 "Nanjing Extension Microelectronics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4200 1650
 	1    0    0    -1  
 $EndComp
@@ -175,6 +189,8 @@ F 0 "C2" H 2342 2696 50  0000 L CNN
 F 1 "10uF" H 2342 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2250 2650 50  0001 C CNN
 F 3 "~" H 2250 2650 50  0001 C CNN
+F 4 "JMK107ABJ106MA-T" H 0   0   50  0001 C CNN "MPN"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2250 2650
 	1    0    0    -1  
 $EndComp
@@ -270,6 +286,8 @@ F 5 "Mic Omni-Directional -26dB 3.6Vdc Rectangular Solder Pad" H 4650 3050 50  0
 F 6 "Unavailable" H 4650 3050 50  0001 L BNN "Field6"
 F 7 "None" H 4650 3050 50  0001 L BNN "Field7"
 F 8 "STMicroelectronics" H 4650 3050 50  0001 L BNN "Field8"
+F 9 "MP34DT05TR-A" H 0   0   50  0001 C CNN "MPN"
+F 10 "STMicroelectronics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4650 3050
 	1    0    0    -1  
 $EndComp
@@ -281,6 +299,8 @@ F 0 "C6" H 5142 2696 50  0000 L CNN
 F 1 "1uF" H 5142 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5050 2650 50  0001 C CNN
 F 3 "~" H 5050 2650 50  0001 C CNN
+F 4 "CL10B105KQ8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5050 2650
 	1    0    0    -1  
 $EndComp
@@ -292,6 +312,8 @@ F 0 "C9" H 5542 2696 50  0000 L CNN
 F 1 "100nF" H 5542 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 2650 50  0001 C CNN
 F 3 "~" H 5450 2650 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5450 2650
 	1    0    0    -1  
 $EndComp
@@ -338,6 +360,8 @@ F 5 "Mic Omni-Directional -26dB 3.6Vdc Rectangular Solder Pad" H 4650 4300 50  0
 F 6 "Unavailable" H 4650 4300 50  0001 L BNN "Field6"
 F 7 "None" H 4650 4300 50  0001 L BNN "Field7"
 F 8 "STMicroelectronics" H 4650 4300 50  0001 L BNN "Field8"
+F 9 "MP34DT05TR-A" H 0   0   50  0001 C CNN "MPN"
+F 10 "STMicroelectronics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4650 4300
 	1    0    0    -1  
 $EndComp
@@ -349,6 +373,8 @@ F 0 "C7" H 5142 3946 50  0000 L CNN
 F 1 "1uF" H 5142 3855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5050 3900 50  0001 C CNN
 F 3 "~" H 5050 3900 50  0001 C CNN
+F 4 "CL10B105KQ8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5050 3900
 	1    0    0    -1  
 $EndComp
@@ -360,6 +386,8 @@ F 0 "C10" H 5542 3946 50  0000 L CNN
 F 1 "100nF" H 5542 3855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 3900 50  0001 C CNN
 F 3 "~" H 5450 3900 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5450 3900
 	1    0    0    -1  
 $EndComp
@@ -435,6 +463,8 @@ F 0 "C1" H 1392 4596 50  0000 L CNN
 F 1 "100nF" H 1392 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1300 4550 50  0001 C CNN
 F 3 "~" H 1300 4550 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    1300 4550
 	1    0    0    -1  
 $EndComp
@@ -446,6 +476,8 @@ F 0 "R2" H 1059 4596 50  0000 L CNN
 F 1 "10M" H 1059 4505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1000 4550 50  0001 C CNN
 F 3 "~" H 1000 4550 50  0001 C CNN
+F 4 "CRCW060310M0FKEAC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Vishay / Dale" H 0   0   50  0001 C CNN "Manufacturer"
 	1    1000 4550
 	1    0    0    -1  
 $EndComp
@@ -457,6 +489,8 @@ F 0 "R1" H 1059 4296 50  0000 L CNN
 F 1 "10M" H 1059 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1000 4250 50  0001 C CNN
 F 3 "~" H 1000 4250 50  0001 C CNN
+F 4 "CRCW060310M0FKEAC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Vishay / Dale" H 0   0   50  0001 C CNN "Manufacturer"
 	1    1000 4250
 	1    0    0    -1  
 $EndComp
@@ -500,6 +534,8 @@ F 0 "R5" V 2654 2650 50  0000 C CNN
 F 1 "2k" V 2745 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2850 2650 50  0001 C CNN
 F 3 "~" H 2850 2650 50  0001 C CNN
+F 4 "CRCW06032K00FKEAC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Vishay / Dale" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2850 2650
 	0    1    1    0   
 $EndComp
@@ -524,9 +560,11 @@ L Device:C_Small C4
 U 1 1 5D1C7E08
 P 8950 2800
 F 0 "C4" H 9042 2846 50  0000 L CNN
-F 1 "?" H 9042 2755 50  0000 L CNN
+F 1 "100nF" H 9042 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 2800 50  0001 C CNN
 F 3 "~" H 8950 2800 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8950 2800
 	1    0    0    -1  
 $EndComp
@@ -538,6 +576,8 @@ F 0 "C3" H 8642 2846 50  0000 L CNN
 F 1 "10uF" H 8642 2755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8550 2800 50  0001 C CNN
 F 3 "~" H 8550 2800 50  0001 C CNN
+F 4 "JMK107ABJ106MA-T" H 0   0   50  0001 C CNN "MPN"
+F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8550 2800
 	1    0    0    -1  
 $EndComp
@@ -593,6 +633,8 @@ F 0 "C16" H 10292 4896 50  0000 L CNN
 F 1 "100nF" H 10292 4805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10200 4850 50  0001 C CNN
 F 3 "~" H 10200 4850 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    10200 4850
 	1    0    0    -1  
 $EndComp
@@ -626,9 +668,11 @@ L Device:LED_Small D2
 U 1 1 5D28BA06
 P 3400 1800
 F 0 "D2" H 3400 1950 50  0000 C CNN
-F 1 "STDBY_LED" H 3400 2050 50  0000 C CNN
+F 1 "Green" H 3400 2050 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 3400 1800 50  0001 C CNN
 F 3 "~" V 3400 1800 50  0001 C CNN
+F 4 "SML-D12M8WT86" H 0   0   50  0001 C CNN "MPN"
+F 5 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3400 1800
 	-1   0    0    1   
 $EndComp
@@ -637,9 +681,11 @@ L Device:LED_Small D1
 U 1 1 5D28BAE6
 P 3400 1600
 F 0 "D1" H 3400 1395 50  0000 C CNN
-F 1 "CHRG_LED" H 3400 1486 50  0000 C CNN
+F 1 "Red" H 3400 1486 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 3400 1600 50  0001 C CNN
 F 3 "~" V 3400 1600 50  0001 C CNN
+F 4 "SML-D12V1WT86" H 0   0   50  0001 C CNN "MPN"
+F 5 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3400 1600
 	-1   0    0    1   
 $EndComp
@@ -648,9 +694,11 @@ L Device:R_Small R4
 U 1 1 5D28BDA5
 P 2950 1450
 F 0 "R4" H 2891 1404 50  0000 R CNN
-F 1 "1k?" H 2891 1495 50  0000 R CNN
+F 1 "1k" H 2891 1495 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 1450 50  0001 C CNN
 F 3 "~" H 2950 1450 50  0001 C CNN
+F 4 "CRCW06031K00FKEAC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Vishay / Dale" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2950 1450
 	-1   0    0    1   
 $EndComp
@@ -757,6 +805,8 @@ F 5 "MICRO SD NORMAL ULTRALOWPRO8CKTE" H 9800 3000 50  0001 L BNN "Field5"
 F 6 "https://www.digikey.com/product-detail/en/molex/5031821852/WM12834CT-ND/5823232?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 9800 3000 50  0001 L BNN "Field6"
 F 7 "5031821852" H 9800 3000 50  0001 L BNN "Field7"
 F 8 "None" H 9800 3000 50  0001 L BNN "Field8"
+F 9 "503182-1852" H 0   0   50  0001 C CNN "MPN"
+F 10 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9800 3000
 	1    0    0    -1  
 $EndComp
@@ -778,6 +828,8 @@ F 0 "U4" H 7800 800 50  0000 C CNN
 F 1 "AP7345D" H 7650 1724 50  0000 C CNN
 F 2 "Package_DFN_QFN:X2-DFN1612-8" H 7500 1450 50  0001 C CNN
 F 3 "" H 7500 1450 50  0001 C CNN
+F 4 "AP7345D-3318RH4-7" H 0   0   50  0001 C CNN "MPN"
+F 5 "Diodes Incorporated" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7650 1350
 	1    0    0    -1  
 $EndComp
@@ -798,6 +850,8 @@ F 0 "C13" H 8642 1346 50  0000 L CNN
 F 1 "1uF" H 8642 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8550 1300 50  0001 C CNN
 F 3 "~" H 8550 1300 50  0001 C CNN
+F 4 "CL10B105KQ8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8550 1300
 	1    0    0    -1  
 $EndComp
@@ -830,6 +884,8 @@ F 0 "SW1" H 6550 925 50  0000 C CNN
 F 1 "OFF - ON" H 6550 1016 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 6550 1250 50  0001 C CNN
 F 3 "" H 6550 1250 50  0001 C CNN
+F 4 "PCM12SMTR" H 0   0   50  0001 C CNN "MPN"
+F 5 "C&K Switches" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6550 1250
 	-1   0    0    1   
 $EndComp
@@ -850,6 +906,8 @@ F 5 "TDK InvenSense" H 8700 5300 50  0001 L BNN "Field5"
 F 6 "1428-1123-1-ND" H 8700 5300 50  0001 L BNN "Field6"
 F 7 "ICM-20948" H 8700 5300 50  0001 L BNN "Field7"
 F 8 "QFN-24 InvenSense" H 8700 5300 50  0001 L BNN "Field8"
+F 9 "ICM-20948" H 0   0   50  0001 C CNN "MPN"
+F 10 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8700 5300
 	1    0    0    -1  
 $EndComp
@@ -861,6 +919,8 @@ F 0 "C15" H 9942 4996 50  0000 L CNN
 F 1 "100nF" H 9942 4905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9850 4950 50  0001 C CNN
 F 3 "~" H 9850 4950 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9850 4950
 	1    0    0    -1  
 $EndComp
@@ -872,6 +932,8 @@ F 0 "C14" H 9792 5496 50  0000 L CNN
 F 1 "100nF" H 9792 5405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9700 5450 50  0001 C CNN
 F 3 "~" H 9700 5450 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9700 5450
 	1    0    0    -1  
 $EndComp
@@ -961,6 +1023,8 @@ F 0 "SW2" H 1450 3583 50  0000 C CNN
 F 1 "OFF-0,7k-HI" H 1450 3492 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SP3T_PCM13" H 825 3475 50  0001 C CNN
 F 3 "" H 825 3475 50  0001 C CNN
+F 4 "PCM13SMTR" H 0   0   50  0001 C CNN "MPN"
+F 5 "C&K Switches" H 0   0   50  0001 C CNN "Manufacturer"
 	1    1450 3300
 	1    0    0    -1  
 $EndComp
@@ -998,7 +1062,7 @@ F 1 "10118194-0001LF" H 1813 2039 60  0000 C CNN
 F 2 "digikey-footprints:USB_Micro_B_Female_10118194-0001LF" H 1950 1600 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1950 1700 60  0001 L CNN
 F 4 "609-4618-1-ND" H 1950 1800 60  0001 L CNN "Digi-Key_PN"
-F 5 "10118194-0001LF" H 1950 1900 60  0001 L CNN "MPN"
+F 5 "10118194-0011LF" H 1950 1900 60  0001 L CNN "MPN"
 F 6 "Connectors, Interconnects" H 1950 2000 60  0001 L CNN "Category"
 F 7 "USB, DVI, HDMI Connectors" H 1950 2100 60  0001 L CNN "Family"
 F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1950 2200 60  0001 L CNN "DK_Datasheet_Link"
@@ -1063,6 +1127,8 @@ F 0 "U6" H 7600 3965 50  0000 C CNN
 F 1 "NTS0104" H 7600 3874 50  0000 C CNN
 F 2 "QFN50PX250X300X100-15N:QFN50PX250X300X100-15N" H 7600 3450 50  0001 C CNN
 F 3 "" H 7600 3450 50  0001 C CNN
+F 4 "NTS0104BQ,115" H 0   0   50  0001 C CNN "MPN"
+F 5 "NXP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7600 3450
 	1    0    0    -1  
 $EndComp
@@ -1093,6 +1159,8 @@ F 5 "Mic Omni-Directional -26dB 3.6Vdc Rectangular Solder Pad" H 4650 5700 50  0
 F 6 "Unavailable" H 4650 5700 50  0001 L BNN "Field6"
 F 7 "None" H 4650 5700 50  0001 L BNN "Field7"
 F 8 "STMicroelectronics" H 4650 5700 50  0001 L BNN "Field8"
+F 9 "MP34DT05TR-A" H 0   0   50  0001 C CNN "MPN"
+F 10 "STMicroelectronics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4650 5700
 	1    0    0    -1  
 $EndComp
@@ -1104,6 +1172,8 @@ F 0 "C17" H 5142 5346 50  0000 L CNN
 F 1 "1uF" H 5142 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5050 5300 50  0001 C CNN
 F 3 "~" H 5050 5300 50  0001 C CNN
+F 4 "CL10B105KQ8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5050 5300
 	1    0    0    -1  
 $EndComp
@@ -1115,6 +1185,8 @@ F 0 "C18" H 5542 5346 50  0000 L CNN
 F 1 "100nF" H 5542 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 5300 50  0001 C CNN
 F 3 "~" H 5450 5300 50  0001 C CNN
+F 4 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5450 5300
 	1    0    0    -1  
 $EndComp

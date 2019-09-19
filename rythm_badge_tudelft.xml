@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/ioannis/freelancing/ekin - hayley/hardware/rythm_badge_tudelft/rythm_badge_tudelft.sch</source>
-    <date>za 24 aug 2019 23:40:28 CEST</date>
+    <date>do 19 sep 2019 21:26:08 CEST</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -20,9 +20,13 @@
   </design>
   <components>
     <comp ref="D3">
-      <value>LED_Small</value>
+      <value>Orange</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SML-D12D1WT86</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+      </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D139909</tstamp>
@@ -31,6 +35,10 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B105KQ8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D13A8DA</tstamp>
@@ -39,6 +47,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">JMK107ABJ106MA-T</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D13A940</tstamp>
@@ -47,14 +59,22 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B105KQ8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D13B08B</tstamp>
     </comp>
     <comp ref="R6">
-      <value>2k</value>
+      <value>3k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CRCW06033K00FKEAC</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D13B1A6</tstamp>
@@ -63,6 +83,10 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B105KQ8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D13B264</tstamp>
@@ -70,6 +94,10 @@
     <comp ref="U1">
       <value>TP4057</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">TP4057-42-SOT26-R</field>
+        <field name="Manufacturer">Nanjing Extension Microelectronics</field>
+      </fields>
       <libsource lib="Custom_parts" part="TP4057" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D1399B1</tstamp>
@@ -78,6 +106,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">JMK107ABJ106MA-T</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D142655</tstamp>
@@ -92,6 +124,8 @@
         <field name="Field6">Unavailable</field>
         <field name="Field7">None</field>
         <field name="Field8">STMicroelectronics</field>
+        <field name="MPN">MP34DT05TR-A</field>
+        <field name="Manufacturer">STMicroelectronics</field>
       </fields>
       <libsource lib="MP34DT05-A" part="MP34DT05-A" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -101,6 +135,10 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B105KQ8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D1782E0</tstamp>
@@ -109,6 +147,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D1783BA</tstamp>
@@ -123,6 +165,8 @@
         <field name="Field6">Unavailable</field>
         <field name="Field7">None</field>
         <field name="Field8">STMicroelectronics</field>
+        <field name="MPN">MP34DT05TR-A</field>
+        <field name="Manufacturer">STMicroelectronics</field>
       </fields>
       <libsource lib="MP34DT05-A" part="MP34DT05-A" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -132,6 +176,10 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B105KQ8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D17C150</tstamp>
@@ -140,6 +188,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D17C157</tstamp>
@@ -148,6 +200,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D18C16D</tstamp>
@@ -156,6 +212,10 @@
       <value>10M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CRCW060310M0FKEAC</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D18C1E1</tstamp>
@@ -164,6 +224,10 @@
       <value>10M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CRCW060310M0FKEAC</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D18C27D</tstamp>
@@ -172,14 +236,22 @@
       <value>2k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CRCW06032K00FKEAC</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D1B4D61</tstamp>
     </comp>
     <comp ref="C4">
-      <value>?</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D1C7E08</tstamp>
@@ -188,6 +260,10 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">JMK107ABJ106MA-T</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D1C7E86</tstamp>
@@ -196,30 +272,46 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D1E5DD6</tstamp>
     </comp>
     <comp ref="D2">
-      <value>STDBY_LED</value>
+      <value>Green</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SML-D12M8WT86</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+      </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D28BA06</tstamp>
     </comp>
     <comp ref="D1">
-      <value>CHRG_LED</value>
+      <value>Red</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SML-D12V1WT86</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+      </fields>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D28BAE6</tstamp>
     </comp>
     <comp ref="R4">
-      <value>1k?</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CRCW06031K00FKEAC</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D28BDA5</tstamp>
@@ -277,6 +369,8 @@
         <field name="Field6">https://www.digikey.com/product-detail/en/molex/5031821852/WM12834CT-ND/5823232?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
         <field name="Field7">5031821852</field>
         <field name="Field8">None</field>
+        <field name="MPN">503182-1852</field>
+        <field name="Manufacturer">Molex</field>
       </fields>
       <libsource lib="503182-1852" part="503182-1852" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -285,6 +379,10 @@
     <comp ref="U4">
       <value>AP7345D</value>
       <footprint>Package_DFN_QFN:X2-DFN1612-8</footprint>
+      <fields>
+        <field name="MPN">AP7345D-3318RH4-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+      </fields>
       <libsource lib="Custom_parts" part="AP7345D" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5E5932</tstamp>
@@ -293,6 +391,10 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B105KQ8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5F790D</tstamp>
@@ -300,6 +402,10 @@
     <comp ref="SW1">
       <value>OFF - ON</value>
       <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <fields>
+        <field name="MPN">PCM12SMTR</field>
+        <field name="Manufacturer">C&amp;K Switches</field>
+      </fields>
       <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D60A4A3</tstamp>
@@ -314,6 +420,8 @@
         <field name="Field6">1428-1123-1-ND</field>
         <field name="Field7">ICM-20948</field>
         <field name="Field8">QFN-24 InvenSense</field>
+        <field name="MPN">ICM-20948</field>
+        <field name="Manufacturer">TDK</field>
       </fields>
       <libsource lib="ICM-20948" part="ICM-20948" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -323,6 +431,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D62F4AD</tstamp>
@@ -331,6 +443,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D62F511</tstamp>
@@ -338,6 +454,10 @@
     <comp ref="SW2">
       <value>OFF-0,7k-HI</value>
       <footprint>Button_Switch_SMD:SW_SP3T_PCM13</footprint>
+      <fields>
+        <field name="MPN">PCM13SMTR</field>
+        <field name="Manufacturer">C&amp;K Switches</field>
+      </fields>
       <libsource lib="Switch" part="SW_SP3T" description="Switch, three position, single pole triple throw, 3 position switch, SP3T"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D71FCE8</tstamp>
@@ -353,7 +473,7 @@
         <field name="Description">CONN RCPT USB2.0 MICRO B SMD R/A</field>
         <field name="Digi-Key_PN">609-4618-1-ND</field>
         <field name="Family">USB, DVI, HDMI Connectors</field>
-        <field name="MPN">10118194-0001LF</field>
+        <field name="MPN">10118194-0011LF</field>
         <field name="Manufacturer">Amphenol ICC (FCI)</field>
         <field name="Status">Active</field>
       </fields>
@@ -364,6 +484,10 @@
     <comp ref="U6">
       <value>NTS0104</value>
       <footprint>QFN50PX250X300X100-15N:QFN50PX250X300X100-15N</footprint>
+      <fields>
+        <field name="MPN">NTS0104BQ,115</field>
+        <field name="Manufacturer">NXP</field>
+      </fields>
       <libsource lib="Custom_parts" part="NTS0104" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D616EEB</tstamp>
@@ -378,6 +502,8 @@
         <field name="Field6">Unavailable</field>
         <field name="Field7">None</field>
         <field name="Field8">STMicroelectronics</field>
+        <field name="MPN">MP34DT05TR-A</field>
+        <field name="Manufacturer">STMicroelectronics</field>
       </fields>
       <libsource lib="MP34DT05-A" part="MP34DT05-A" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -387,6 +513,10 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B105KQ8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D6457B7</tstamp>
@@ -395,6 +525,10 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D6457BE</tstamp>
