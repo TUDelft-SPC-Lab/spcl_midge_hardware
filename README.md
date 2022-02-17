@@ -1,3 +1,3 @@
 # SPCL Midge badge
 
-![Test](./v2.3.jpg)
+![Test](./Media/overview.jpg)
