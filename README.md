@@ -16,16 +16,21 @@ Learn more about the project itself [here](https://conflab.ewi.tudelft.nl/)
 
 Learn more about the software [here](https://github.com/TUDelft-SPC-Lab/midge-code)
 
-## motivation
-Why are conference-badge-type wearable sensors important for us?
+## Motivation
+
+#### Why are conference-badge-type wearable sensors important for us?
 Wearable badges are a cheap, convenient way to record high-fidelity signals from individuals in social interaction. We have the need for such a device in the SPC lab because we study the social dynamics of small crowds (~25-100 people) interacting during an event. Conference badges allow us to equip every participant to record individual audio, body movement signals and proximity information, all at a relatively low cost per device.
-Why not use cell phones?
+
+#### Why not use cell phones?
 Cell phones can be useful in sensing crowds but differences in the sensors, fidelities and recording options / software available to different cell phone models are an issue for analysis. If cell phones are to be provided by the scientist, then cost becomes an issue in comparison with wearable badges.
-Why not use a wrist wearable?
+
+#### Why not use a wrist wearable?
 Wrist wearables can be effective at capturing hand movements. While we could have designed our device with a wrist form factor, we think the badge form is more convenient to use and its position on the chest allows it to more reliably capture proximity and overall body movement through acceleration.
-Why did we decide to modify the Rhythm Badge?
+
+#### Why did we decide to modify the Rhythm Badge?
 The open-source Rhythm Badge was designed with office environments in mind, where the goal was the collection of longitudinal data about a team over days or weeks. Proximity information and a low-frequency microphone allowed it to reconstruct the social network of team members. On the other hand our goal was to computationally analyse interactions both at the group and individual level from social signals (speech, movement, proximity) of subjects. This required higher fidelity sensors and a new device design.
-How did we modify the  Rhythm Badge?
+
+#### How did we modify the  Rhythm Badge?
 - Enabled full audio recording, with a frequency up to 48KHz with an on-board switch to allow physical selection between high and low frequency. 
 - Added a 9-axis IMU to record pose. IMUs combine three tri-axial sensors: an accelerometer, a gyroscope, and a magnetometer. These measure acceleration, orientation, and angular rates respectively. The sensor information is combined on-chip by a Digital Motion Processor.
 - Added an on-board SD card to directly store raw data, avoiding typical issues related to packet loss during wireless data transfer.
