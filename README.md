@@ -1,6 +1,6 @@
 # SPCL Midge badge
 
-Welcome to the Hardware repository of the Social Perceptive Lab for the MIDGE badge.
+Welcome to the Hardware repository of the [Social Perceptive Lab](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/socially-perceptive-computing-lab) for the MIDGE badge.
 
 ![Test](./Media/overview.jpg)
 
@@ -38,13 +38,18 @@ The open-source Rhythm Badge was designed with office environments in mind, wher
 ## What makes your project stand out?
 This project is unique because it improves upon the state-of-the-art wearable sensors measuring face-to-face human social interactions. The improvement points are catered towards more fine-grained and flexible capturing of data. For instance, the choice between high and low frequency audio capturing mode is provided at data acquisition and the experimenters can freely choose the frequency best suitable for them (for example, whether they have high-frequency audio for transcription or privacy-preserving low-frequency audio for detecting speech activities). Additionally, the inclusion of the on-board digital motion processor directly provides orientation estimation with the newly included full 9-DOF inertial motion unit (IMU). This allows future applications (e.g., real-time F-formation detection) to be built directly on top of the outputs of the DMP. The above design considerations and implementation exemplify the uniqueness and new advantages that Midges offer. 
 ## Status of the project
-### Issues on the PCB
-Currently we are not aware of specific problems with the PCB, all functions work correctly (battery charging, cut-off switches, SD card, audio recording, IMU recording, status LEDs. If you do find a problem, please open an issue in the github repository.
-### Tests or results from the project
-The design of the Midge is complete and 100 devices have been created. The device was successfully used for the [ConfLab dataset](https://conflab.ewi.tudelft.nl/). There it was used to record audio (1250Hz), IMU data (56Hz) and proximity data (1Hz) for 48 data subjects in the same space in a computer science conference. It has also been used to make [smart drinking glasses](https://github.com/TUDelft-SPC-Lab/midge-drinking-glass) and in several of smaller studies.
-### People or parties involved in the development
-The development of the device was contracted to Ioannis Protonotarios (https://protonotarios.info/) for the Socially Perceptive Computing Lab at Delft University of Technology. Ioannis took as base the latest release of the MIT Media Lab's Rhythm badge (https://www.media.mit.edu/posts/rhythm-badge/) and implemented both hardware and software changes and updates. Testing of the device was done in conjunction with Socially Perceptive Computing Lab members. The whole process took 3 years and two iterations of the device's hardware.
+
+### Project outcomes
+The design of the Midge is complete and 100 devices have been created. The device was successfully used for the [ConfLab dataset](https://conflab.ewi.tudelft.nl/). There it was used to record audio (1250Hz), IMU data (56Hz) and proximity data (1Hz) for 48 data subjects in the same space in a computer science conference. It has also been used to make [smart drinking glasses](https://github.com/TUDelft-SPC-Lab/midge-drinking-glass) and in several master and bachelor thesis.
+
+### Parties involved in the development
+The development of the device was contracted to [Ioannis Protonotarios](https://protonotarios.info/) for the [Socially Perceptive Computing Lab](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/socially-perceptive-computing-lab) at Delft University of Technology. Ioannis took as base the latest release of the MIT Media Lab's [Rhythm badge](https://www.media.mit.edu/posts/rhythm-badge/) and implemented both hardware and software changes and updates. Testing of the device was done in conjunction with Socially Perceptive Computing Lab members. The whole process took 3 years and two iterations of the device's hardware. Additional firmware and software improvements have been developed by the SIPLab-EdgeAI at the [Costa Rica Institute of Technology](https://tec.ac.cr/en).
+
+
 ### Do you want people to contribute to the project?
 Absolutely. Some of the contributions that we current find most important in our application setting (sensing of small crowds) are:
 Improvements to audio sensing. Although our Midge was an improvement over the Rhythm badge in quality of audio sensing, audio quality is still an issue. Especially, the front-facing microphones of the device introduce significant cross-contamination. Potential solutions include exploring beam-forming, directional microphones or addition of headset support.
 Software improvements. There is significant room for improving the software of the device. The hub, which serves as monitoring and control centre for all connected Midges is especially relevant. The current command-line interface would benefit from being replaced by a user-friendly web-based interface that displays the status of connected midges and allows for quick bulk actions like eg. disabling sensors, starting/stopping recordings, etc.
+
+### Issues on the PCB
+Currently we are not aware of specific problems with the PCB, all functions work correctly (battery charging, cut-off switches, SD card, audio recording, IMU recording, status LEDs. If you do find a problem, please open an issue in the github repository.
