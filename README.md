@@ -12,9 +12,9 @@ It features
 - 300mAh battery
 - BMD 300 processor with bluetooth low energy
 
-Learn more about the project itself [here](https://conflab.ewi.tudelft.nl/)
+Learn more about the project itself [here](https://conflab.ewi.tudelft.nl/).
 
-Learn more about the software [here](https://github.com/TUDelft-SPC-Lab/midge-code)
+Learn more about the firmware and software [here](https://github.com/TUDelft-SPC-Lab/midge-code).
 
 ## Motivation
 
@@ -41,9 +41,9 @@ This project is unique because it improves upon the state-of-the-art wearable se
 ### Issues on the PCB
 Currently we are not aware of specific problems with the PCB, all functions work correctly (battery charging, cut-off switches, SD card, audio recording, IMU recording, status LEDs. If you do find a problem, please open an issue in the github repository.
 ### Tests or results from the project
-The design of the Midge is complete and X devices have been created. The device was successfully used in one large data collection in a computer science conference to record audio (1200Hz), IMU data (56Hz) and proximity data (1Hz) for 48 data subjects in the same space. This allowed us to identify several important bugs that have been subsequently fixed. The dataset is in the process of being published. The devices have also been used by several student groups with the purpose of validating the sensor information. 
+The design of the Midge is complete and 100 devices have been created. The device was successfully used for the [ConfLab dataset](https://conflab.ewi.tudelft.nl/). There it was used to record audio (1250Hz), IMU data (56Hz) and proximity data (1Hz) for 48 data subjects in the same space in a computer science conference. It has also been used in several of smaller studies.
 ### People or parties involved in the development
-The development of the device was contracted to Ioannis Protonotarios (https://protonotarios.info/) for the Socially Perceptive Computing Lab at Delft University of Technology. Ioannis took as base the latest release of the MIT Media Lab’s Rhythm badge (https://www.media.mit.edu/posts/rhythm-badge/) and implemented both hardware and software changes and updates. Testing of the device was done in conjunction with Socially Perceptive Computing Lab members. The whole process took X months and two iterations of the device’s hardware.
+The development of the device was contracted to Ioannis Protonotarios (https://protonotarios.info/) for the Socially Perceptive Computing Lab at Delft University of Technology. Ioannis took as base the latest release of the MIT Media Lab's Rhythm badge (https://www.media.mit.edu/posts/rhythm-badge/) and implemented both hardware and software changes and updates. Testing of the device was done in conjunction with Socially Perceptive Computing Lab members. The whole process took 3 years and two iterations of the device's hardware.
 ### Do you want people to contribute to the project?
 Absolutely. Some of the contributions that we current find most important in our application setting (sensing of small crowds) are:
 Improvements to audio sensing. Although our Midge was an improvement over the Rhythm badge in quality of audio sensing, audio quality is still an issue. Especially, the front-facing microphones of the device introduce significant cross-contamination. Potential solutions include exploring beam-forming, directional microphones or addition of headset support.
