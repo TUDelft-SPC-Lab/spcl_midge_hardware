@@ -2,19 +2,27 @@
 
 Welcome to the Hardware repository of the [Social Perceptive Lab](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/socially-perceptive-computing-lab) for the MIDGE badge.
 
-![Test](./Media/overview.jpg)
+![Test](./Hardware_Design_v1/Media/overview.jpg)
 
 The Midge badge is a 55x35mm wearable PCB for in-the-wild social data collection. 
 It features
 - 2 microphones, with adjustable low and high cutoff frequencies
 - 9 axis IMU
 - SD card storage
-- 300mAh battery
-- BMD 300 processor with bluetooth low energy
+- 500mAh battery
+- BMD 340 processor with a BLE (bluetooth low energy) antenna
 
 Learn more about the project itself [here](https://conflab.ewi.tudelft.nl/).
 
 Learn more about the firmware and software [here](https://github.com/TUDelft-SPC-Lab/midge-code).
+
+## Versions
+
+- V1: first production ready version (2022)
+- V2: hardware upgrade (2026)
+    - Better battery (300mAh -> 500mAh)
+    - Newer processor (BMD 300 -> BMD 340)
+    - Added an extension port
 
 ## Motivation
 
@@ -47,7 +55,7 @@ The development of the device was contracted to [Ioannis Protonotarios](https://
 
 
 ### Would you like to contribute to the project?
-Absolutely. Some of the contributions that we current find most important in our application setting (sensing of small crowds) are:
+Absolutely. Some of the contributions that we currently find most important in our application setting (sensing of small crowds) are:
 Improvements to audio sensing. Although our Midge was an improvement over the Rhythm badge in quality of audio sensing, audio quality is still an issue. Especially, the front-facing microphones of the device introduce significant cross-contamination. Potential solutions include exploring beam-forming, directional microphones or addition of headset support.
 Software improvements. There is significant room for improving the software of the device. The hub, which serves as monitoring and control centre for all connected Midges is especially relevant. The current command-line interface would benefit from being replaced by a user-friendly web-based interface that displays the status of connected midges and allows for quick bulk actions like eg. disabling sensors, starting/stopping recordings, etc.
 
