@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rythm_badge_tudelft-rescue")(type "KiCad")(uri "${KIPRJMOD}/rythm_badge_tudelft-rescue.kicad_sym")(options "")(descr ""))
+)
