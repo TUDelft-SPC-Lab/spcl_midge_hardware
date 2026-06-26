@@ -38,13 +38,14 @@ Wrist wearables can be effective at capturing hand movements. While we could hav
 #### Why did we decide to modify the Rhythm Badge?
 The open-source Rhythm Badge was designed with office environments in mind, where the goal was the collection of longitudinal data about a team over days or weeks. Proximity information and a low-frequency microphone allowed it to reconstruct the social network of team members. On the other hand our goal was to computationally analyse interactions both at the group and individual level from social signals (speech, movement, proximity) of subjects. This required higher fidelity sensors and a new device design.
 
-#### How did we modify the  Rhythm Badge?
+#### How did we modify the Rhythm Badge?
 - Enabled full audio recording, with a frequency up to 48KHz with an on-board switch to allow physical selection between high and low frequency. 
 - Added a 9-axis IMU to record pose. IMUs combine three tri-axial sensors: an accelerometer, a gyroscope, and a magnetometer. These measure acceleration, orientation, and angular rates respectively. The sensor information is combined on-chip by a Digital Motion Processor.
 - Added an on-board SD card to directly store raw data, avoiding typical issues related to packet loss during wireless data transfer.
 
-## What makes your project stand out?
+## What makes the project stand out?
 This project is unique because it improves upon the state-of-the-art wearable sensors measuring face-to-face human social interactions. The improvement points are catered towards more fine-grained and flexible capturing of data. For instance, the choice between high and low frequency audio capturing mode is provided at data acquisition and the experimenters can freely choose the frequency best suitable for them (for example, whether they have high-frequency audio for transcription or privacy-preserving low-frequency audio for detecting speech activities). Additionally, the inclusion of the on-board digital motion processor directly provides orientation estimation with the newly included full 9-DOF inertial motion unit (IMU). This allows future applications (e.g., real-time F-formation detection) to be built directly on top of the outputs of the DMP. The above design considerations and implementation exemplify the uniqueness and new advantages that Midges offer. 
+
 ## Status of the project
 
 ### Project outcomes
