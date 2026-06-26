@@ -14,7 +14,7 @@ It features
 
 Learn more about the project itself [here](https://conflab.ewi.tudelft.nl/).
 
-Learn more about the firmware and software [here](https://github.com/TUDelft-SPC-Lab/midge-code).
+Learn more about the firmware and software [here](https://github.com/TUDelft-SPC-Lab/midge-code-neo).
 
 ## Versions
 
