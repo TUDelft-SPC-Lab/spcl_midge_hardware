@@ -20,8 +20,9 @@ Learn more about the firmware and software [here](https://github.com/TUDelft-SPC
 
 - V1: first production ready version (2022)
 - V2: hardware upgrade (2026)
-    - Better battery (300mAh -> 500mAh)
     - Newer processor (BMD 300 -> BMD 340)
+    - Newer IMU (ICM-20948 -> LSM6DSOXTR)
+    - Newer Magnetometer (ICM-20948 -> AK09918C)
     - Added an extension port
 
 ## Motivation
@@ -60,5 +61,10 @@ Absolutely. Some of the contributions that we currently find most important in o
 Improvements to audio sensing. Although our Midge was an improvement over the Rhythm badge in quality of audio sensing, audio quality is still an issue. Especially, the front-facing microphones of the device introduce significant cross-contamination. Potential solutions include exploring beam-forming, directional microphones or addition of headset support.
 Software improvements. There is significant room for improving the software of the device. The hub, which serves as monitoring and control centre for all connected Midges is especially relevant. The current command-line interface would benefit from being replaced by a user-friendly web-based interface that displays the status of connected midges and allows for quick bulk actions like eg. disabling sensors, starting/stopping recordings, etc.
 
+### Additional hardware details
+
+1. We've tested the midge with Gigastone 8GB, microSDHC, class 10, V10 sdcards
+2. We've used standard 3.7V, 500 mAh Lipo batteries
+
 ### Issues on the PCB
-Currently we are not aware of specific problems with the PCB, all functions work correctly (battery charging, cut-off switches, SD card, audio recording, IMU recording, status LEDs. If you do find a problem, please open an issue in the github repository.
+Currently we are not aware of specific problems with the PCB, all functions work correctly (battery charging, cut-off switches, SD card, audio recording, IMU recording, status LEDs). If you do find a problem, please open an issue in the github repository.
