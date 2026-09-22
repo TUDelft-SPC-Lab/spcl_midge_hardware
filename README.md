@@ -9,7 +9,7 @@ It features
 - 2 microphones, with adjustable low and high cutoff frequencies
 - 9 axis IMU
 - SD card storage
-- 500mAh battery
+- 600mAh battery
 - BMD 340 processor with a BLE (bluetooth low energy) antenna
 
 Learn more about the project itself [here](https://conflab.ewi.tudelft.nl/).
@@ -20,6 +20,7 @@ Learn more about the firmware and software [here](https://github.com/TUDelft-SPC
 
 - V1: first production ready version (2022)
 - V2: hardware upgrade (2026)
+    - Bigger battery 500mAh -> 600mAh
     - Newer processor (BMD 300 -> BMD 340)
     - Newer IMU (ICM-20948 -> LSM6DSOXTR)
     - Newer Magnetometer (ICM-20948 -> AK09918C)
